@@ -42,6 +42,7 @@ const App = () => {
     //  React.createElement(Expenses, {items: expenses})
     //);
 
+  {/** Data arriving in APP.js */}
   const addExpenseHandler = expense => {
     console.log('in App.js');
     console.log(expenses);

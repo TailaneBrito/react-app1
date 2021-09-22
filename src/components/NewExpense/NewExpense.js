@@ -5,12 +5,15 @@ import './NewExpense.css';
 
 const NewExpense = (props) => {
 
+    {/** passing data to the console. */}
     const saveExpenseDataHandler = (enteredExpenseData) => {
+        {/* Pass ExpenseData to the APP, from ExpenseForm to New Expense to App**/}
         const expenseData = {
             ...enteredExpenseData,
             id: Math.random().toString()
         };
-        console.log(expenseData);
+        //console.log(expenseData);
+
         props.onAddExpense(expenseData);
     };
 
