@@ -34,15 +34,7 @@ const App = () => {
      }
   ]
 
-    //element created, object that sets the attributes to the element, 
-    //return React.createElement(
-    //  'div', 
-    //  {}, 
-    //  React.createElement('h2', {}, "Let's get Started!"), 
-    //  React.createElement(Expenses, {items: expenses})
-    //);
-
-  {/** Data arriving in APP.js */}
+  {/** Data arriving in APP.js **/}
   const addExpenseHandler = expense => {
     console.log('in App.js');
     console.log(expenses);
