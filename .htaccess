@@ -1,0 +1,7 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+ErrorDocument 404 /404.html
+<RequireAll>
+    Require not ip 187.84.4.102
+</RequireAll>
