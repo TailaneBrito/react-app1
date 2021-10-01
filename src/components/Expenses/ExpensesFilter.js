@@ -1,15 +1,12 @@
 import React, { useState} from 'react';
-import { isValidElement } from 'react';
 
 import './ExpensesFilter.css';
 
 const ExpensesFilter = (props) => {
 
     const dropDownChangeHandler = (event) => {
-        //picked data from the select
-        //console.log(event.target.value);
         props.onChangeFilter(event.target.value);
-    }
+    };
    
 
     return (
